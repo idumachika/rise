@@ -20,7 +20,6 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@tanstack/react-query": "^4.29.5",
     "axios": "^1.4.0",
-    "customerio-reactnative": "^3.1.1",
     "react": "18.2.0",
     "react-hook-form": "^7.43.9",
     "react-native": "0.71.8",

@@ -105,9 +105,13 @@ const LoginScreen = () => {
 
       <Text style={styles.footerText}>
         Don't have an account?{' '}
+<<<<<<< HEAD
         <Pressable onPress={() => navigation.navigate('Register')}>
           <Text style={{color: colors.primary}}>Sign up</Text>
         </Pressable>
+=======
+        <Text style={{color: colors.primary}}>Sign up</Text>
+>>>>>>> f23b0bb (first commit)
       </Text>
     </SafeAreaView>
   );
