@@ -21,6 +21,7 @@ const Input = <T extends FieldValues>({
   ...otherProps
 }: InputProps<T>) => {
   const [isFocused, setIsFocused] = React.useState(false);
+  console.log("=====",isFocused, setIsFocused);
 
   return (
     <Controller
