@@ -46,6 +46,7 @@ const RegisterScreen = () => {
       password: '',
     },
     resolver: zodResolver(schema),
+    
   });
 
   let password = watch('password');
