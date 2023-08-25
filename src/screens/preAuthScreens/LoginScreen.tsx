@@ -4,6 +4,7 @@ import React from 'react';
 import {SubmitHandler, useForm} from 'react-hook-form';
 import {
   ActivityIndicator,
+  Pressable,
   StatusBar,
   StyleSheet,
   Text,
@@ -104,7 +105,9 @@ const LoginScreen = () => {
 
       <Text style={styles.footerText}>
         Don't have an account?{' '}
-        <Text style={{color: colors.primary}}>Sign up</Text>
+        <Pressable onPress={() => navigation.navigate('Register')}>
+          <Text style={{color: colors.primary}}>Sign up</Text>
+        </Pressable>
       </Text>
     </SafeAreaView>
   );
