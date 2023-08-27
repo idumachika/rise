@@ -48,6 +48,7 @@ const RegisterScreen = () => {
     resolver: zodResolver(schema),
     
   });
+  console.log('store', navigation);
 
   let password = watch('password');
   const onSubmit: SubmitHandler<RegisterSchema> = data => {

@@ -35,6 +35,8 @@ const tags = [
 
 const ReviewScreen = () => {
   const navigation = useNavigation<NavigationProps>();
+    console.log('navigation', navigation);
+
   const plans = useAppSelector(state => state.plan);
   const createPlan = useCreatePlan();
   const {data} = useGetCurrentUser();

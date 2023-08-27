@@ -8,6 +8,8 @@ import {NavigationProps} from '../../types/navigators';
 
 const Home = () => {
   const navigation = useNavigation<NavigationProps>();
+  console.log('flatlistRef', navigation);
+
 
   return (
     <SafeAreaView style={styles.container}>

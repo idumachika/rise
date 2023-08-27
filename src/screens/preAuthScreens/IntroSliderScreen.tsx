@@ -54,6 +54,7 @@ const slides = [
 const IntroSliderScreen = () => {
   const flatlistRef = React.useRef<FlatList | null>(null);
   const navigation = useNavigation<NavigationProps>();
+  console.log('flatlistRef', flatlistRef);
 
   const renderItem: ListRenderItem<(typeof slides)[number]> = ({
     item,
