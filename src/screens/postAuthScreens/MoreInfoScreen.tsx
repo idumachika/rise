@@ -44,6 +44,8 @@ export type MoreInfoSchema = z.infer<typeof schema>;
 
 const MoreInfoScreen = () => {
   const navigation = useNavigation<NavigationProps>();
+    console.log('navigation', navigation);
+
   const route = useRoute<RouteProps<'MoreInfo'>>();
   const [date, setDate] = React.useState<Date>(new Date());
   const [open, setOpen] = React.useState(false);

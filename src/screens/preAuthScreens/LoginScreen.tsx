@@ -52,6 +52,8 @@ const LoginScreen = () => {
 
   const onSubmit: SubmitHandler<LoginSchema> = data => {
     console.log('data', data);
+    console.log('data==', data);
+
     loginUser.mutate(data, {
       onSuccess: () => {
         navigation.navigate('Success', {

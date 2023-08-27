@@ -37,7 +37,7 @@ const lists = [
 
 const CreatePlanScreen = () => {
   const navigation = useNavigation<NavigationProps>();
-
+  console.log('navigation', navigation);
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
