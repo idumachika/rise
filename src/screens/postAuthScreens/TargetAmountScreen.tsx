@@ -33,6 +33,8 @@ type TargetAmountSchema = z.infer<typeof schema>;
 
 const TargetAmountScreen = () => {
   const navigation = useNavigation<NavigationProps>();
+    console.log('navigation', navigation);
+
   const plans = useAppSelector(state => state.plan);
   const dispatch = useAppDispatch();
   const {control, handleSubmit} = useForm<TargetAmountSchema>({

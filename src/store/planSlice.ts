@@ -12,6 +12,8 @@ const initialState: PlanInput = {
   target_amount: '',
   maturity_date: '',
 };
+console.log('store', initialState);
+
 
 export const planSlice = createSlice({
   name: 'plan',
