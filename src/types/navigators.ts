@@ -34,7 +34,7 @@ export type BottomTabStackParamList = {
   Plans: undefined;
   Feed: undefined;
   Wallet: undefined;
-  // SettingNavigator: BottomTabNavigationProp<SettingStackParamList>;
+  //SettingNavigator: BottomTabNavigationProp<SettingStackParamList>;
 };
 
 // export type SettingStackParamList = {
