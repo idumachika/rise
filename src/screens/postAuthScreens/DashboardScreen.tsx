@@ -26,6 +26,7 @@ import {colors, fonts} from '../../theme/theme';
 
 const DashboardScreen = () => {
   const {data: user, isLoading} = useGetCurrentUser();
+   console.log('navigation', isLoading);
 
   return (
     <SafeAreaView style={styles.container}>

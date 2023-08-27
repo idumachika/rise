@@ -33,6 +33,7 @@ const TargetDateScreen = () => {
   const plans = useAppSelector(state => state.plan);
   const dispatch = useAppDispatch();
   const navigation = useNavigation<NavigationProps>();
+  console.log('navigation', navigation);
   const {control, setValue, setError, handleSubmit} = useForm<TargetDateSchema>(
     {
       defaultValues: {

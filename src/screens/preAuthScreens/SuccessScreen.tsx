@@ -9,7 +9,7 @@ import {NavigationProps, RouteProps} from '../../types/navigators';
 
 const SuccessScreen = () => {
   const route = useRoute<RouteProps<'Success'>>();
-  console.log('error=====', route);
+console.log('store', route);
   const navigation = useNavigation<NavigationProps>();
 
   return (

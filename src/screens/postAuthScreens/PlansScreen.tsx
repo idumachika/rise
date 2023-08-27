@@ -24,6 +24,8 @@ import {RouteProps} from '../../types/navigators';
 
 const PlanScreen = () => {
   const navigation = useNavigation();
+    console.log('navigation', navigation);
+
   const route = useRoute<RouteProps<'PlanDetails'>>();
   const {data: plan, isLoading} = useGetPlan(1);
 

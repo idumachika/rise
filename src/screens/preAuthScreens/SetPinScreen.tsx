@@ -8,6 +8,8 @@ import {colors, fonts} from '../../theme/theme';
 const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '0', 'B'];
 
 const SetPinScreen = () => {
+  console.log('store', keys);
+
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor={'#fff'} barStyle={'dark-content'} />
